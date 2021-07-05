@@ -32,7 +32,7 @@ VBUS   _|   ~~   ~~   ~~
 GND    ~~   ~~   ~~   _| 
 
 ```
-First table no connecion  
+First table no connection  
 Second table shows a fully functionnal USB cable  
 Third table shows a charge only USB cable  
   
