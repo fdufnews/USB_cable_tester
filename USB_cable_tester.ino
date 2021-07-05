@@ -19,7 +19,7 @@
  * Common of the resistors tired to D4
  */
 uint8_t pinlist[8] = {12, 11, 10, 9, 8, 7, 6, 5};
-char* pinName[4]={"VBUS "," D+  "," D-  ","GND  "};
+char* pinName[4]={"VBUS "," D-  "," D+  ","GND  "};
 uint8_t pinPull = 4;
 uint8_t cableState[4][4];
 
