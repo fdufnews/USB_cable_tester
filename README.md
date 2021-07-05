@@ -12,5 +12,28 @@ The USB Adapter Kit from The Pi Hut offers a full line of USB connectors male an
 This tester uses the kit in order to test any USB cable with any combination of USB connectors.  
 The Arduino applies a HIGH or a LOW on each pin of the two connectors in turn and reads the pins of the opposite connector.  
 The result of the scan is displayed on the serial console or any serial terminal application.  
+```
+      VBUS  D+   D-  GND  
+VBUS   ~~   ~~   ~~   ~~ 
+ D+    ~~   ~~   ~~   ~~ 
+ D-    ~~   ~~   ~~   ~~ 
+GND    ~~   ~~   ~~   ~~ 
 
-Note, only VBUS, D+, D- and GND are tested.
+      VBUS  D+   D-  GND  
+VBUS   _|   ~~   ~~   ~~ 
+ D+    ~~   _|   ~~   ~~ 
+ D-    ~~   ~~   _|   ~~ 
+GND    ~~   ~~   ~~   _| 
+
+      VBUS  D+   D-  GND  
+VBUS   _|   ~~   ~~   ~~ 
+ D+    ~~   ~~   ~~   ~~ 
+ D-    ~~   ~~   ~~   ~~ 
+GND    ~~   ~~   ~~   _| 
+
+```
+First table no connecion  
+Second table shows a fully functionnal USB cable  
+Third table shows a charge only USB cable  
+  
+_Note_, only VBUS, D+, D- and GND are tested.
